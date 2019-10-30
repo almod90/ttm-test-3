@@ -7041,3 +7041,12 @@ html, body {
   #auth-form .btn {
     display: block;
     flex-grow: 1; }
+
+table {
+  width: 100%; }
+  table td, table th {
+    padding: 8px; }
+  table tr:first-child {
+    border-bottom: 1px solid lightgray; }
+  table tr:nth-child(2n) {
+    background-color: #ececec; }

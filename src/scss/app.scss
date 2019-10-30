@@ -30,3 +30,16 @@ html, body {
     flex-grow: 1;
   }
 }
+
+table {
+  width: 100%;
+  td, th {
+    padding: 8px;
+  }
+  tr:first-child {
+    border-bottom: 1px solid darken($body-bg, 10%);
+  }
+  tr:nth-child(2n) {
+    background-color: $body-bg;
+  }
+}
